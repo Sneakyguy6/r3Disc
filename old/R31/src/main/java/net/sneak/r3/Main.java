@@ -26,7 +26,7 @@ public class Main {
 			.put("R3#Announcements", 732958640276766761L)
 			.put("R3#LookingForGroup", 734764188131655762L)
 			.put("R3#streamSubscribe", 0l)
-			.put("R3", 731547378280300564L)
+			.put("R3", 731547378280300564L) //Note: tokens used here are invalid
 			.build();
 	private static JDA BOT;
 	
