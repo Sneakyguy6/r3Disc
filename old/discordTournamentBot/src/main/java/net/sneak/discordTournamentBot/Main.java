@@ -24,7 +24,7 @@ public class Main {
 	public static void main(String[] args) throws LoginException {
 		IDs.put("hostRole", /*702947086101905561L*/ 706911282556829726L);
 		//IDs.put("discordManager", 0L);
-		IDs.put("bot", 706908679160725514L /*706441475998613534L*/);
+		IDs.put("bot", 706908679160725514L /*706441475998613534L*/); //note: tokens used here are invalid
 		//IDs.put("managerChannel", 706466843363246080L);
 		
 		Sql.init();
