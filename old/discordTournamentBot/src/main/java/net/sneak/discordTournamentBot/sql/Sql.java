@@ -19,7 +19,7 @@ public class Sql implements AutoCloseable {
 	private Sql() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			this.con = DriverManager.getConnection("jdbc:mysql://192.168.1.20:3306/tf2Tournament", "remote", "yeet");
+			this.con = DriverManager.getConnection("jdbc:mysql://192.168.1.20:3306/tf2Tournament", "remote", "");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
